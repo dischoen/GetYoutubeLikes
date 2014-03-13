@@ -18,3 +18,6 @@ and one plot for each project with views and likes
 ## prerequisites
 You need a youtube data API key to access the data from youtube,
 and you need to register to plot.ly to upload plots there.
+
+See result at
+https://plot.ly/plot
