@@ -31,7 +31,7 @@ for project in data.keys():
                 'text': ["Likes: %s" % x[2] for x in data[project]],
                 'type': 'scatter',
                 'mode': 'lines',
-                'opacity': 0.25
+                'opacity': 0.85
             })
 
 layout = {
@@ -57,7 +57,7 @@ for project in data.keys():
                 'text': ["Views: %s" % x[1] for x in data[project]],
                 'type': 'scatter',
                 'mode': 'lines',
-                'opacity': 0.25
+                'opacity': 0.85
             })
 
 layout = {
@@ -81,7 +81,7 @@ for project in data.keys():
                 'text': ["Views: %s" % x[1] for x in data[project]],
                 'type': 'scatter',
                 'mode': 'lines',
-                'opacity': 0.25
+                'opacity': 0.85
             },
             {
                 'name': project + " likes",
@@ -91,7 +91,7 @@ for project in data.keys():
                 'yaxis': 'y2',
                 'type': 'scatter',
                 'mode': 'lines',
-                'opacity': 0.45
+                'opacity': 0.75
             }]
 
     layout = {
