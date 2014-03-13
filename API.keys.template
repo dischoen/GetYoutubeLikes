@@ -1,0 +1,4 @@
+export APIkey=<insert-your-youtube-API-key-here>
+export PLOTLY_USER=<here goes your PLOTLY user>
+export PLOTLY_KEY=<here goes your PLOTLY key>
+
