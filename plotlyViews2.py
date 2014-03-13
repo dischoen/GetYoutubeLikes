@@ -36,7 +36,7 @@ for project in data.keys():
 
 layout = {
             'xaxis': {'title': 'Date'},
-            'yaxis': {'title': 'Views'},
+            'yaxis': {'title': 'Likes'},
             'title': "Hack The Arduino Robot Challenge 2014<br>Likes"
             }
 
