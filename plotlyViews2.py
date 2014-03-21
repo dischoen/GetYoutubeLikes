@@ -37,6 +37,7 @@ for project in data.keys():
 layout = {
             'xaxis': {'title': 'Date'},
             'yaxis': {'title': 'Likes'},
+            'legend': {"x":0, "y":1},
             'title': "Hack The Arduino Robot Challenge 2014<br>Likes"
             }
 
@@ -63,6 +64,7 @@ for project in data.keys():
 layout = {
             'xaxis': {'title': 'Date'},
             'yaxis': {'title': 'Views'},
+            'legend': {"x":0, "y":1},
             'title': "Hack The Arduino Robot Challenge 2014<br>Views"
             }
 
@@ -100,6 +102,7 @@ for project in data.keys():
                 'yaxis2': {'title': 'Likes',
                            'overlaying':'y',
                            'side':'right'},
+                'legend': {"x":0, "y":1},
                 'title': "Hack The Arduino Robot Challenge 2014<br>" + project + " Views vs. Likes"
                 }
 
